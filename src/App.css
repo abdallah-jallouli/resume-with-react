@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Work+Sans:wght@300&display=swap");
+
+.App {
+  text-align: center;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.col-6{
+  background-color: #DDF2FD;
+}
+
+
+.main-container{
+  margin-top: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100vmax;
+  /* background-color: #61A3BA; */
+}
+
+.reframed-image-container {
+  width: 250px; /* Set the desired width */
+  height: 350px; /* Set the desired height */
+  overflow: hidden; /* Hide overflowing content */
+  border: 1px solid #ccc; /* Optional: Add a border for styling */
+}
+
+.reframed-image {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Preserve the aspect ratio and cover the container */
+}
+.cord{
+  margin-top: 20px;
+}
+
+.card-cord{
+  display: flex;
+}
+
+.para-cord{
+  margin-left: 20px;
+}
+li{
+  text-align: start;
+}
+
+.para-lan{
+  margin-top: 10px;
+  text-align: start;
+}
+
+.list{
+  list-style-type:square;
+  margin-left: -10px;
+}
+.list li {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.list li span{
+  color: #DDF2FD;
+  font-size: small;
+}
+.para-name{
+  text-align: center;
+}
+h3{
+  text-align: start;
+  font-weight: 900;
+  text-transform: uppercase;
+
+}
+
+p{
+  text-align: justify;
+}
+
+.title-form{
+  margin: 20px 0 0 0 ;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.date-form{
+  color: #427D9D;
+  margin: 0px;
+}
+.location-form{
+  margin: 0px;
+}
+.desc-exp{
+  font-weight: 400;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
