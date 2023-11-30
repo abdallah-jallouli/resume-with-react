@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 
 const CentreInteret = () => {
   var centres = [
@@ -17,6 +18,7 @@ const CentreInteret = () => {
           <li>{el}</li>
         ))}
       </ul>
+      <Button variant="outline-warning">Hide</Button>{' '}
     </div>
   );
 };
